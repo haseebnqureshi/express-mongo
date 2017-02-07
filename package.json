@@ -1,0 +1,21 @@
+{
+  "name": "express-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mongod --dbpath data & node index.js",
+    "mongo": "mongod --dbpath data",
+    "stop": "killall node npm mongod"
+  },
+  "author": "Haseeb Qureshi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.21",
+    "slug": "^0.9.1",
+    "underscore": "^1.8.3",
+    "uuid": "^3.0.1"
+  }
+}
